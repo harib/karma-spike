@@ -1,0 +1,5 @@
+C:\Users\harib\Desktop\karma-spike\karma-spike.test\bin\karma-spike.test.dll
+C:\Users\harib\Desktop\karma-spike\karma-spike.test\bin\karma-spike.test.pdb
+C:\Users\harib\Desktop\karma-spike\karma-spike.test\obj\Debug\karma-spike.test.csprojResolveAssemblyReference.cache
+C:\Users\harib\Desktop\karma-spike\karma-spike.test\obj\Debug\karma-spike.test.dll
+C:\Users\harib\Desktop\karma-spike\karma-spike.test\obj\Debug\karma-spike.test.pdb
