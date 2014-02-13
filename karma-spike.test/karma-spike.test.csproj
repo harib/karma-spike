@@ -57,8 +57,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="test\lib\angular-route.js" />
-    <Content Include="test\lib\angular.js" />
     <Content Include="test\lib\angular\angular-mocks.js" />
     <Content Include="test\lib\angular\angular-scenario.js" />
     <Content Include="test\lib\angular\version.txt" />
@@ -66,9 +64,6 @@
     <Content Include="test\lib\chai-jquery.js" />
     <Content Include="test\lib\chai.js" />
     <Content Include="test\lib\duck-angular\duck-angular.js" />
-    <Content Include="test\lib\jquery-1.8.2.min.js" />
-    <Content Include="test\lib\libs.js" />
-    <Content Include="test\lib\lodash.js" />
     <Content Include="test\lib\mocha-as-promised\LICENSE.txt" />
     <Content Include="test\lib\mocha-as-promised\mocha-as-promised.js" />
     <Content Include="test\lib\mocha-as-promised\test\index.html" />
@@ -200,12 +195,8 @@
     <Content Include="test\lib\mocha\node_modules\ms\test\support\jquery.js" />
     <Content Include="test\lib\mocha\node_modules\ms\test\test.js" />
     <Content Include="test\lib\mocha\test.js" />
-    <Content Include="test\lib\ng-i18n.js" />
     <Content Include="test\lib\q.js" />
-    <Content Include="test\lib\require.js" />
     <Content Include="test\lib\sinon-1.7.3.js" />
-    <Content Include="test\lib\text.js" />
-    <Content Include="test\lib\underscore-min.js" />
     <Content Include="test\unit\controllers\controller1-test.js" />
     <Content Include="test\unit\controllers\controller2-test.js" />
     <Content Include="test\unit\services\service1-test.js" />
@@ -222,20 +213,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="test\lib\duck-angular\README.md" />
-    <Content Include="test\lib\mocha-as-promised\.gitignore" />
-    <Content Include="test\lib\mocha-as-promised\.jshintrc" />
-    <Content Include="test\lib\mocha-as-promised\.npmignore" />
-    <Content Include="test\lib\mocha-as-promised\.travis.yml" />
-    <Content Include="test\lib\mocha-as-promised\package.json" />
-    <Content Include="test\lib\mocha-as-promised\README.md" />
-    <Content Include="test\lib\mocha-as-promised\test\chai-as-promised.coffee" />
-    <Content Include="test\lib\mocha-as-promised\test\direct.coffee" />
-    <Content Include="test\lib\mocha-as-promised\test\mocha.opts" />
-    <Content Include="test\lib\mocha-as-promised\test\test.coffee" />
     <Content Include="test\lib\mocha\.npmignore" />
     <Content Include="test\lib\mocha\.travis.yml" />
-    <Content Include="test\lib\mocha\bin\mocha" />
     <Content Include="test\lib\mocha\bin\_mocha" />
+    <Content Include="test\lib\mocha\bin\mocha" />
     <Content Include="test\lib\mocha\component.json" />
     <Content Include="test\lib\mocha\History.md" />
     <Content Include="test\lib\mocha\lib\reporters\templates\coverage.jade" />
@@ -296,6 +277,16 @@
     <Content Include="test\lib\mocha\node_modules\ms\README.md" />
     <Content Include="test\lib\mocha\package.json" />
     <Content Include="test\lib\mocha\Readme.md" />
+    <Content Include="test\lib\mocha-as-promised\.gitignore" />
+    <Content Include="test\lib\mocha-as-promised\.jshintrc" />
+    <Content Include="test\lib\mocha-as-promised\.npmignore" />
+    <Content Include="test\lib\mocha-as-promised\.travis.yml" />
+    <Content Include="test\lib\mocha-as-promised\package.json" />
+    <Content Include="test\lib\mocha-as-promised\README.md" />
+    <Content Include="test\lib\mocha-as-promised\test\chai-as-promised.coffee" />
+    <Content Include="test\lib\mocha-as-promised\test\direct.coffee" />
+    <Content Include="test\lib\mocha-as-promised\test\mocha.opts" />
+    <Content Include="test\lib\mocha-as-promised\test\test.coffee" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

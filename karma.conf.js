@@ -13,15 +13,16 @@ module.exports = function(config) {
 
     proxies:  {
         '/example/static': 'http://localhost:9999/',
+		 '/example/tests': 'http://localhost:9998/',
       },
     // list of files / patterns to load in the browser
     files: [
       'js/lib/require.js',
-      'js/test/unit/test-main.js',
+      '../karma-spike.test/test/unit/test-main.js',
       {pattern: 'js/lib/**/*.js', included: false},
       {pattern: 'js/app/**/*.js', included: false},
       {pattern: 'js/app/*.js', included: false},
-      {pattern: 'js/test/**/*test.js', included: false},
+      {pattern: '../karma-spike.test/test/**/*test.js', included: false},
     ],
 
     // list of files to exclude

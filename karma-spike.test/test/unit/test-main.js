@@ -1,5 +1,6 @@
-require(["/example/static/js/test/unit/test.config.js"], function() {
-  require(["test-setup", "chai", "sinon", "text", "chaiAsPromised", "chaiJquery", "app/app.config"],
+require(["/example/tests/test/unit/test.config.js"], function () {
+    console.log("test config file found");
+  require(["test-setup", "chai", "sinon", "text", "chaiAsPromised", "chaiJquery", "/example/static/js/app/app.config.js"],
     function (setup, chai, sinon, text, chaiAsPromised, chaiJquery) {
       window.initApp = setup.initApp;
       window.setupApp = setup.setupApp;

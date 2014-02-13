@@ -17,7 +17,7 @@ for (var file in window.__karma__.files) {
 
 require.config(
   {
-    baseUrl: "/example/static/js",
+    baseUrl: "/example/tests",
     paths: {
       "test-setup": "test/unit/test-setup",
       angular: "lib/angular",
@@ -27,7 +27,7 @@ require.config(
       sinon: "test/lib/sinon-1.7.3",
       "jquery": "lib/jquery-1.8.2.min",
       spec_helper: "test/unit/spec-helper",
-      text: "lib/text",
+      text: "/example/static/js/lib/text",
       mochaAsPromised: "test/lib/mocha-as-promised/mocha-as-promised",
       chaiAsPromised: "test/lib/chai-as-promised",
       chaiJquery: "test/lib/chai-jquery",
